@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/Banner.jpeg);
+  background-image: url(Banner.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 610px;
   margin: 0;
@@ -132,7 +132,7 @@ header > a {
   height: 450px;
   margin-top: 5px;
   background-color: gray;
-  background-image: url(./images/bg-img.jpg);
+  background-image: url(bg-img.jpg);
   
 }
 .buy-now > h2 {
