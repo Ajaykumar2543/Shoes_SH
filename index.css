@@ -1,0 +1,238 @@
+body {
+  background-image: url(images/Banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 610px;
+  margin: 0;
+  background-color: rgb(51, 51, 65);
+}
+
+/* Header */
+
+header {
+  display: flex;
+  margin: 0;
+}
+header > img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 3rem;
+  margin-right: 400px;
+}
+header > a {
+  text-decoration: none;
+  font-weight: 600;
+  color: aliceblue;
+  margin-top: 22px;
+  margin-right: 5px;
+  font-size: 19px;
+  padding: 10px;
+}
+.register {
+  margin-left: 300px;
+}
+
+/* Home Page */
+
+.intro {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin-top: 360px;
+  margin-left: 30px;
+}
+.intro > h1 {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+.intro > h3 {
+  margin-top: 2px;
+  margin-left: 30px;
+}
+
+/* ABOUT PAGE */
+
+.ab > h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+.about-b {
+  width: 100%;
+  height: 400px;
+  margin-top: 0px;
+  display: flex;
+}
+.about-info {
+  color: aliceblue;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+.about-info > h2 {
+  font-size: 40px;
+}
+.about-info > p {
+  font-size: 30px;
+}
+
+/* CATEGORIES PAGE */
+
+.Ca > h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+.shoe-cards {
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-flex;
+}
+.sh-card {
+  width: 300px;
+  height: 390px;
+  background-color: aqua;
+  margin-left: 16.5px;
+  margin-right: 16.5px;
+  border-radius: 10px;
+}
+.sh-card > img {
+  width: 270px;
+  height: 300px;
+  padding: 0px 0px 0px 15px;
+  margin-top: 15px;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+.sh-card > h1 {
+  padding-left: 15px;
+  padding-top: 0px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.sh-card > button {
+  margin-left: 10px;
+  margin-top: 13px;
+  background-color: aqua;
+  color: black;
+  font-weight: 800;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* BUYNOW PAGE */
+
+.buy-now {
+  width: 100%;
+  height: 450px;
+  margin-top: 5px;
+  background-color: gray;
+  background-image: url(./images/bg-img.jpg);
+  
+}
+.buy-now > h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+table {
+  color: black;
+  font-weight: 800;
+  font-size: medium;
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  background-color: aqua;
+  opacity: 0.8;
+}
+table, th, td{
+  border: 1px solid;
+}
+.img-buy {
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
+}
+.pay{
+  background-color: rgb(236, 234, 234);
+  color: rgb(8, 71, 247);
+  font-weight: 800;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.del{
+  background-color: rgb(236, 234, 234);
+  color: rgb(238, 11, 11);
+  font-weight: 800;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CONTACT-US PAGE */
+
+footer {
+  width: 100%;
+  height: 400px;
+  margin-top: 5px;
+  background-color: gray;
+}
+footer > div > h2 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+.form-info {
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 300px;
+}
+form > input {
+  width: 280px;
+  font-size: 20px;
+}
+form > label {
+  font-size: 25px;
+}
+#submit {
+  background-color: aqua;
+  color: black;
+  font-weight: 800;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer > h3 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  color: aliceblue;
+}
+
+/* Register / login form */
+
+.forminfo{
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}

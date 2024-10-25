@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoes</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/party.jpeg" alt="shoe" />
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#categories">Categories</a>
+      <a href="#buynow">BuyNow</a>
+      <a href="#contactus">Contact-Us</a>
+      <a class="register" href="register.html">Register</a>
+    </header>
+
+    <div class="intro">
+      <h1>Welcome</h1>
+      <h3>
+        Arena of branded Shoes. Different Categories of shoes available from
+        sports to causal.
+      </h3>
+    </div>
+
+    <div class="ABOUT">
+      <div id="about" class="about" style="background-image: url(./images/bg-img.jpg); 
+      background-repeat: no-repeat;
+      background-size: 100% 620px;">
+        <div class="ab"><h2>About</h2></div>
+        <div class="about-b">
+          <div class="about-info">
+            <h2>Greetings</h2>
+            <p> $ - Find your perfect match with our wide selection of comfortable and affordable shoes.
+              <br>
+              $ - Experience the comfort and convenience of Shopping for shoes from the comfort of your home.
+              <br>
+              $ - Your shoe shopping haven: easy, efficient and enjoyable.
+            </p>
+          </div>
+          <div class="about-img"><img src="./images/about-img.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="Ca" id="categories" style="background-image: url(./images/bg-img.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 610px;">
+    <h2>Categories</h2>
+    <div class="shoe-cards">
+      <div class="sh-card">
+        <img src="./images/party.jpeg" alt="Sports Shoe" />
+        <h1>Party<span>&#9829</span></h1>
+        <button>Add to Cart</button>
+      </div>
+      <div class="sh-card">
+          <img src="./images/sports.jpeg" alt="Sports Shoe" />
+          <h1>Sports <span>&#9829</span></h1>
+          <button>Add to Cart</button>
+      </div>
+      <div class="sh-card">
+          <img src="./images/formal.jpeg" alt="Sports Shoe" />
+          <h1>Formal <span>&#9829</span></h1>
+          <button>Add to Cart</button>
+      </div>
+      <div class="sh-card">
+          <img src="./images/causal.jpeg" alt="Sports Shoe" />
+          <h1>Causal <span>&#9829</span></h1>
+          <button>Add to Cart</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="buy-now" id="buynow" style="background-repeat: no-repeat;
+    background-size: 100% 610px;">
+    <h2>BuyNow</h2>
+
+    <table>
+      <thead>
+      <tr>
+        <th>Image</th>
+        <th>Categories</th>
+        <th>prize</th>
+        <th>Buynow</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr>
+        <td><img class="img-buy" src="./images/party.jpeg" alt="party"></td>
+        <td>Party</td>
+        <td>799rs</td>
+        <td><button class="pay">Pay</button></td>
+        <td><button class="del">Delete</button></td>
+      </tr>
+      <tr>
+        <td><img class="img-buy" src="./images/formal.jpeg" alt="party"></td>
+        <td>Formal</td>
+        <td>999rs</td>
+        <td><button class="pay">Pay</button></td>
+        <td><button class="del">Delete</button></td>
+      </tr>
+      <tr>
+        <td><img class="img-buy" src="./images/sports.jpeg" alt="party"></td>
+        <td>Sports</td>
+        <td>899rs</td>
+        <td><button class="pay">Pay</button></td>
+        <td><button class="del">Delete</button></td>
+      </tr>
+    </tbody>
+    </table>
+
+    </div>
+
+    <footer id="contactus" style="background-image: url(./images/bg-img.jpg); background-repeat: no-repeat;
+    background-size: 100% 610px;">
+      <div><h2>Contact-Us</h2></div>
+      <div class="form-info">
+      <form action="">
+        <label for="fname">Name :</label>
+        <input type="text" id="fname">
+        <label for="femail">Email :</label>
+        <input type="email" id="femail">
+        <label for="fmessage">Message :</label>
+        <input type="textarea" id="fmessage"><br><br>
+        <input onclick="onclick" type="submit" id="submit">
+      </form>
+    </div>
+
+    <h3>Thank You for Visiting</h3>
+    </footer>
+  </body>
+</html>
